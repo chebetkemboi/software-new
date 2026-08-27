@@ -1,10 +1,26 @@
-num = input("Enter number or quit by pressing enter")
+smallest = None
+largest = None
 
-while name != "":
-    num.append(num)
-    num = input("Enter the next name or quit by pressing Enter: ")
+while True:
+    number = input("Enter a number (or press Enter to quit): ")
 
-print(numbers)
+    if number == "":
+        break
+
+    number = float(number)
+
+    if smallest is None:
+        smallest = number
+        largest = number
+    else:
+        if number < smallest:
+            smallest = number
+
+        if number > largest:
+            largest = number
+
+print("Smallest number:", smallest)
+print("Largest number:", largest)
 
 
 
