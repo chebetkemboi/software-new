@@ -1,0 +1,24 @@
+inches = input("Enter lenght in inches:")
+inches =float(inches)
+centimeters = inches * 2.54
+
+if inches < 0 :
+  print("Prgram ended")
+else:
+    print(f"{inches} inches is equal to {centimeters} centimeters.")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

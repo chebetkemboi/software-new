@@ -1,0 +1,18 @@
+num1 = int(input("Enter first number:"))
+num2 = int(input("Enter second number:"))
+
+menu = input("Choose an operation (add, minus, multiply): ")
+print("menu")
+
+if menu == "add":
+    result = num1 + num2  
+elif menu == "minus":
+    result = num1 - num2
+elif menu == "multiply":
+    result = num1 * num2
+
+print("The result is: ", result)
+
+
+
+

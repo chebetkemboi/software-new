@@ -1,0 +1,17 @@
+num = input("Enter number or quit by pressing enter")
+
+while name != "":
+    num.append(num)
+    num = input("Enter the next name or quit by pressing Enter: ")
+
+print(numbers)
+
+
+
+
+    
+
+
+
+
+    
