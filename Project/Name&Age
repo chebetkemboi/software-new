@@ -1,0 +1,6 @@
+Name = input("Enter Name:")
+
+Age = input("Enter Age:")
+
+print(Name)
+print(Age)
